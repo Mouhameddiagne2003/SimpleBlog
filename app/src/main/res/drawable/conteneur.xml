@@ -1,0 +1,32 @@
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="#FFA500" /> <!-- Modifier la couleur selon vos préférences -->
+            <corners android:radius="10dp" /> <!-- Modifier le rayon pour ajuster l'arrondi -->
+        </shape>
+    </item>
+    <item android:left="4dp" android:top="4dp" android:right="4dp" android:bottom="8dp">
+        <shape android:shape="rectangle">
+            <solid android:color="#FFA500" /> <!-- Modifier la couleur selon vos préférences -->
+            <corners android:radius="10dp" /> <!-- Modifier le rayon pour ajuster l'arrondi -->
+        </shape>
+    </item>
+    <item android:left="0dp" android:top="0dp" android:right="0dp" android:bottom="4dp">
+        <shape android:shape="rectangle">
+            <solid android:color="#FFA500" /> <!-- Modifier la couleur selon vos préférences -->
+            <corners android:radius="10dp" /> <!-- Modifier le rayon pour ajuster l'arrondi -->
+        </shape>
+    </item>
+    <item android:left="4dp" android:top="8dp" android:right="4dp" android:bottom="4dp">
+        <shape android:shape="rectangle">
+            <solid android:color="@android:color/white" /> <!-- Couleur d'arrière-plan des conteneurs -->
+            <corners android:radius="10dp" /> <!-- Modifier le rayon pour ajuster l'arrondi -->
+        </shape>
+    </item>
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="@android:color/white" /> <!-- Couleur d'arrière-plan des conteneurs -->
+            <corners android:radius="10dp" /> <!-- Modifier le rayon pour ajuster l'arrondi -->
+        </shape>
+    </item>
+</layer-list>
